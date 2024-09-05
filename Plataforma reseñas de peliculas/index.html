@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma reseñas de películas</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="img/favi-icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Reseñas de Películas</h1>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <input type="text" id="searchInput" placeholder="Buscar película...">
+            <button id="searchButton">Buscar</button>
+        </section>
+
+        <section id="movieResults" class="movie-results">
+            
+        </section>
+
+        <section class="featured-movies">
+            <h2>Películas Populares</h2>
+            <div class="carousel-wrapper">
+                <div class="carousel" id="carousel">
+                    
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button id="prev" class="carousel-button">&#9664;</button>
+                <button id="next" class="carousel-button">&#9654;</button>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
